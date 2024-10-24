@@ -6,21 +6,15 @@ To implement Opening and Closing using Python and OpenCV.
 1. Anaconda - Python 3.7
 2. OpenCV
 ## Algorithm:
-### Step1:
-<br>
+### Step 1: Load the necessary libraries (cv2, numpy, and matplotlib) for image processing and display.
 
+### Step 2: Generate a blank image and use cv2.putText() to add the text "Digital Image Processing" and "Techniques" on it.
 
-### Step2:
-<br>
+### Step 3: Show the original image with the added text using matplotlib.
 
-### Step3:
-<br>
+### Step 4: Define a 5x5 cross-shaped structuring element using cv2.getStructuringElement() for morphological operations.
 
-### Step4:
-<br>
-
-### Step5:
-<br>
+### Step 5: Perform the Opening and Closing operations on the image using cv2.morphologyEx() and display the results for both.
 
  
 ## Program:
